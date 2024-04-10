@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class DatabaseManager {
+public class DataBaseManager {
 
     private static final Properties properties = ConfigLoader.loadConfig(TestUtil.CONFIG_FILE_PATH);
 
